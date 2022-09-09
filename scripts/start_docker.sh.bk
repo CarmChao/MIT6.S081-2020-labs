@@ -1,0 +1,8 @@
+#!/bin/bash
+
+docker run -it --rm \
+    --name mit6_s081 \
+    -p 8848:8848 \
+    -v $(pwd):/mit6.s081 \
+    mit_s0681_lab_env \
+    /bin/bash
